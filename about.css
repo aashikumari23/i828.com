@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav_bar {
+    display: flex;
+    background-color: #ffeb99;
+    height: 15vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  #logo {
+    background-image: url("logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 11.5vh;
+    width: 5.325rem;
+    margin-left: 0.3625rem;
+  }
+  
+  .text {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #715b04;
+    font-family: cursive;
+    display: inline;
+  }
+  
+  .add {
+    display: flex;
+    margin-left: 11rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+  }
+  
+  .connect {
+    display: flex;
+    height: 7vh;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    
+  }
+  
+  a {
+    height: 5vh;
+    width: 5.625rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-right: 1.5rem;
+  }
+  .nav-search {
+    display: flex;
+    width: 25%;
+    max-width: 23.125rem;
+    height: 4vh;
+    border-radius: 0.25rem;
+    justify-content: space-evenly;
+    border: none;
+    margin-top:3rem;
+  }
+  
+  .third {
+    background-color: #f3f3f3;
+    width: 3.125rem;
+    text-align: center;
+    border-top-left-radius: 3.125rem;
+    border-bottom-left-radius: 3.125rem;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .search-icon {
+    width: 2.8125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border-top-right-radius: 3.125rem;
+    border-bottom-right-radius: 3.125rem;
+    background-color: white;
+    color: #715b04;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    font-family: cursive;
+  }
+  
+  .input:focus {
+    border: none;
+  }
+  
+  .foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #715b04;
+    height: 6vh;
+    width: 100%;
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 5rem;
+    height: 6vh;
+    margin-right: 0.0625rem;
+  }
+  
+  .l {
+    color: #ffeb99;
+    font-size: 1.8rem;
+    margin-left: 0.5625rem;
+    font-family: cursive;
+    margin-right: 1.25rem;
+  }
+  
+  .l:hover {
+    cursor: pointer;
+  }
+  
+  .t {
+    color: #ffeb99;
+    font-size: 1.2rem;
+    font-family: cursive;
+    font-weight: bold;
+  }
+  .team1{
+    font-size: 1rem;
+    font-family: cursive;
+    color: #715b04;
+    margin-left: 1rem;
+    font-weight: bold;
+  }
+  .team{
+    font-size: 1rem;
+    font-family: cursive;
+    color: #715b04;
+    margin-left: 1rem;
+  }
+  .team2{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: cursive;
+    color: #715b04;
+    margin-left: 1rem;
+    font-weight: bold;
+  }
+  
+  .members{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    height:20vh;
+  }
+  .mem{
+    width:49%;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: cursive;
+    color: #715b04;
+  }
+  .line {
+    width:0.1%;
+    height: 20vh;
+    background-color: rgba(113, 91, 4, 0.5);
+  }
+  .mem1{
+    
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-family: cursive;
+    color: #715b04;
+  }
+  .type{
+    height:30vh;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .type1{
+    width:33%;
+    height:35vh;
+  }
+  .line1 {
+    width:0.1%;
+    height: 30vh;
+    background-color: rgba(113, 91, 4, 0.5);
+  }
+  .space{
+    
+    background-color:rgba(255, 235, 153,0.4);
+  }
+  .color{
+    width:100%;
+    height:2rem;
+    background-color:rgba(255, 235, 153,0.2) ;
+  }
+  .pic1{
+    position: relative;
+  }
+  .pic1 a{
+    display: block;
+    width:5.565rem;
+    height:5.5vh;
+    background-image: url("8 pack.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-decoration: none;
+  }
+  .pic2{
+    position: relative;
+  }
+  .pic2 a{
+    display: block;
+    width:5.565rem;
+    height:5vh;
+    background-image: url("taste.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-decoration: none;
+  }
+  .pic3{
+    position: relative;
+  }
+  .pic3 a{
+    display: block;
+    width:9.565rem;
+    height:5vh;
+    background-image: url("celebrate.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-decoration: none;
+  }
+  .center{
+    display: grid;
+    place-items: center; 
+    height:5vh;
+    width:33%;
+    margin-left: 10rem;
+  }
+  .photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .photo1{
+    border-radius: 50px;
+    height: 50px;
+    width:50px;
+    background-color: black;
+    background-image: url("ashish.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .photo2{
+    border-radius:50px;
+    height: 50px;
+    width:50px;
+    background-color: black;
+    background-image: url("aashi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .img{
+    height: 5vh;
+    width: 5.625rem;
+    background-image: url("8 pack.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:1.7rem;
+  }
+  .img1{
+    height: 4vh;
+    width: 4.625rem;
+    background-image: url("taste.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:1.4rem;
+  }
+  .img2{
+  height: 3.3vh;
+  width: 8.525rem;
+  background-image: url("celebrate.png");
+  background-size: contain; /* Adjusted to contain */
+  background-repeat: no-repeat;
+  background-position: center; /* Added to center the image */
+  margin-top: 1.7rem;
+  }
+ 
+    
+    
+   
+  
+  
+  
