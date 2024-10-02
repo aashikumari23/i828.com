@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+  .nav_bar {
+    display: flex;
+    background-color: #ffeb99;
+    height: 15vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  
+  #logo {
+    background-image: url("logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 11.5vh;
+    width: 5.325rem;
+    margin-left: 0.3625rem;
+  }
+  
+  .text {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #715b04;
+    font-family: cursive;
+    display: inline;
+  }
+  
+  .add {
+    display: flex;
+    margin-left: 11rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+  }
+  
+  .connect {
+    display: flex;
+    height: 7vh;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    
+  }
+  
+  a {
+    height: 5vh;
+    width: 5.625rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-right: 1.5rem;
+  }
+  
+  .nav-search {
+    display: flex;
+    width: 25%;
+    max-width: 23.125rem;
+    height: 4vh;
+    border-radius: 0.25rem;
+    justify-content: space-evenly;
+    border: none;
+    margin-top:3rem;
+  }
+  
+  .third {
+    background-color: #f3f3f3;
+    width: 3.125rem;
+    text-align: center;
+    border-top-left-radius: 3.125rem;
+    border-bottom-left-radius: 3.125rem;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .search-icon {
+    width: 2.8125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border-top-right-radius: 3.125rem;
+    border-bottom-right-radius: 3.125rem;
+    background-color: white;
+    color: #715b04;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    font-family: cursive;
+  }
+  
+  .input:focus {
+    border: none;
+  }
+  
+  .foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #715b04;
+    height: 6vh;
+    width: 100%;
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 5rem;
+    height: 6vh;
+    margin-right: 0.0625rem;
+  }
+  
+  .l {
+    color: #ffeb99;
+    font-size: 1.8rem;
+    margin-left: 0.5625rem;
+    font-family: cursive;
+    margin-right: 1.25rem;
+  }
+  
+  .l:hover {
+    cursor: pointer;
+  }
+  
+  .t {
+    color: #ffeb99;
+    font-size: 1.2rem;
+    font-family: cursive;
+    font-weight: bold;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction:row;
+    
+    align-items: center;
+   
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .main {
+      flex-direction: row;
+    }
+  }
+  
+  .ad {
+    width: 100%;
+   
+  }
+  
+  @media (min-width: 768px) {
+    .ad {
+      width: 25%;
+     
+    }
+  }
+  .line {
+    width: 0.125rem;
+    height:80vh;
+    position: sticky;
+    top: 2rem;
+    background-color: rgba(113, 91, 4, 0.5);
+    display: block;
+    align-self: flex-start;
+    margin-top: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .line {
+      display: block;
+    }
+  }
+  
+  .content {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    
+  }
+  
+  @media (min-width: 768px) {
+    .content {
+      width: 50%;
+      
+    }
+  }
+  .mem{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: cursive;
+    color: #715b04;
+  }
+  
+  .img{
+    height: 5vh;
+    width: 5.625rem;
+    background-image: url("8 pack.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:1.7rem;
+  }
+  .img1{
+    height: 4vh;
+    width: 4.625rem;
+    background-image: url("taste.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:1.4rem;
+  }
+  .img2{
+  height: 3.3vh;
+  width: 8.525rem;
+  background-image: url("celebrate.png");
+  background-size: contain; /* Adjusted to contain */
+  background-repeat: no-repeat;
+  background-position: center; /* Added to center the image */
+  margin-top: 1.7rem;
+  }
+  .pic4{
+    position: relative;
+    height:35vh;
+    width:98%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom:20px;
+    margin-left: 0.5rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+  }
+  .font{
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    left: 10px;   /* Adjust as needed */
+    color: white;
+    padding: 5px 10px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    font-family: cursive;
+    font-size: 1rem;
+  }
+  .title1{
+    text-align: center;
+    color: #715b04;
+    font-size: 1.5rem;
+    font-family: cursive;
+  }
+  .style{
+    text-align: center;
+    color: #715b04;
+    font-size: 1rem;
+    font-family: cursive;
+  }
+ 
+  body{
+    display: flex;
+    flex-direction: column;
+  }
+  main{
+    flex:1;
+  }
+  ol {
+    padding-left: 20px; /* Adjust as needed to fit within the content div */
+    margin: 0; /* Remove default margins */
+}
+ul {
+  padding-left: 20px; /* Adjust as needed to fit within the content div */
+  margin: 0; /* Remove default margins */
+}
+
